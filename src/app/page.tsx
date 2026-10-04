@@ -43,6 +43,23 @@ export default function Home() {
 
   const canvasRef = useRef<HTMLDivElement>(null);
 
+  // Deep-link support for demo video recording and tab navigation
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const tab = params.get('tab');
+      if (tab === 'friend_split' || tab === 'transactions' || tab === 'vampire') {
+        setActiveTab(tab);
+      }
+      if (params.get('inspector') === 'true' && subscriptions.length > 1) {
+        setSelectedSubForInspector(subscriptions[1]);
+      }
+      if (params.get('modal') === 'legal' && subscriptions.length > 1) {
+        setSelectedSubForNotice(subscriptions[1]);
+      }
+    }
+  }, [subscriptions]);
+
   // Synchronize when transactions change (CSV upload or demo load)
   useEffect(() => {
     setIsAnalyzing(true);
