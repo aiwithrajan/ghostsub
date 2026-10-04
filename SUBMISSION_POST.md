@@ -53,7 +53,7 @@ So I spent this Hacktoberfest weekend building **GhostSub** for Kevin.
 
 The complete source code is open source under the MIT License:
 
-{% github https://github.com/your-username/hacktoberfest-ghostsub %}
+{% github https://github.com/aiwithrajan/ghostsub %}
 
 Repository features:
 - `src/lib/tabpfn-engine.ts` — Tabular feature extraction and Bayesian pattern prior classification.
