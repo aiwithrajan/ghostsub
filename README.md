@@ -3,7 +3,7 @@
 > **A Hacktoberfest 2026 Weekend Challenge Entry: "Build for a Friend"**  
 > *Built for Kevin (my roommate) to liberate $894/year in stealth subscription price creeps and zombie charges with 100% financial privacy.*
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/aiwithrajan/ghostsub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2026-rose.svg)](https://hacktoberfest.com)
 
