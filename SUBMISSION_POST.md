@@ -43,9 +43,9 @@ So I spent this Hacktoberfest weekend building **GhostSub** for Kevin.
 
 {% youtube Z1M1rdaq0S4 %}
 
+- **Live Deployed App (Render):** [https://ghostsub.onrender.com](https://ghostsub.onrender.com)
 - **Watch on YouTube:** [https://youtu.be/Z1M1rdaq0S4](https://youtu.be/Z1M1rdaq0S4)
 - **Official GitHub Release Assets:** [GitHub v1.0.0 Release Assets](https://github.com/aiwithrajan/ghostsub/releases/tag/v1.0.0)
-- **1-Click Deploy to Render:** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/aiwithrajan/ghostsub)
 - **One-Click Instant Demo:** Built right into the top navigation bar! Click **"Load Kevin's Demo"** to immediately test the system with a realistic 6-month bank statement containing stealth price creeps, zombie charges, and friend synergy.
 
 ### What Kevin Said When I Handed It To Him:
